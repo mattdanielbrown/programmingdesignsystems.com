@@ -4,7 +4,7 @@
     "babel-loader": "^6.2.5",
     "babel-preset-react": "^6.16.0",
     "cheerio": "^0.20.0",
-    "hsluv": "0.0.1",
+    "hsluv": "0.1.0",
     "lodash": "^4.6.1",
     "magicbook": "^0.1.14",
     "magicbook-codesplit": "^0.1.4",
