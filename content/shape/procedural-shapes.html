@@ -35,8 +35,8 @@ title:  Procedural Shapes
 
     <p>In P5, these functions are called <code>sin()</code> and <code>cos()</code>. As described above, they accept a single argument – an angle in radians – and return a value between <code>-1</code> and <code>1</code> representing the <code>x</code> or <code>y</code> position on a tiny circle. The two lines below demonstrate how to get these values and multiply them by the radius of your actual circle. Memorize these two lines, as they are very important.</p>
 
-    <pre class="text-width"><code>var x = cos(RADIANS) * RADIUS;
-var y = sin(RADIANS) * RADIUS;</code></pre>
+    <pre class="text-width"><code>const x = cos(RADIANS) * RADIUS;
+const y = sin(RADIANS) * RADIUS;</code></pre>
 
 
     <p>To put this into context, here is an example where we use the same code to draw a small circle 330 degrees along the outline of a bigger circle.</p>
@@ -145,7 +145,7 @@ var y = sin(RADIANS) * RADIUS;</code></pre>
     <p>Here is a flower created with <code>quadraticVertex()</code> where all vertices and control points are positioned using <code>sin()</code> and <code>cos()</code>. By using a larger radius for the control points (the inverse of the star example above), the curves go outwards. When using Bézier curves, remember to start the shape with a <code>vertex()</code> function call. We do this by checking the value of <code>i</code> within the loop.</p>
 
     {% p5 shape/procedural-shapes/flower.js class:'text-width' %}
-    {% codesplit shape/procedural-shapes/flower.js lines:'10-36' class:'columns' %}
+    {% codesplit shape/procedural-shapes/flower.js lines:'8-36' class:'columns' %}
 
     <p>You will often find yourself needing to use just one of the circular functions. The two shapes below are created just like that: The first one uses <code>sin()</code> and the second one uses <code>cos()</code> (as demonstrated in the code below).</p>
 

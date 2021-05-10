@@ -61,6 +61,15 @@ figure figcaption {
   @extend .font-small;
   color: $fontGrayLight;
   a {
+    display: inline-block;
+    background-color: #f0f0f0;;
+    padding: 0px 6px;
+    color: #565656;
+    border: none;
+  }
+  a[href="#fairuse"] {
+    background-color: inherit;
+    padding: 0;
     color: $fontGrayLight;
   }
   code {
