@@ -1,14 +1,14 @@
 {
   "devDependencies": {
     "babel-core": "^6.17.0",
-    "babel-loader": "^6.2.5",
+    "babel-loader": "^7.0.0",
     "babel-preset-react": "^6.16.0",
     "cheerio": "^0.20.0",
     "hsluv": "0.0.1",
     "lodash": "^4.6.1",
     "magicbook": "^0.1.14",
     "magicbook-codesplit": "^0.1.4",
-    "magicbook-webpack": "0.0.3",
+    "magicbook-webpack": "0.0.4",
     "p5": "^0.5.9",
     "prismjs": "^1.5.1",
     "react": "^15.3.2",
