@@ -1,14 +1,1 @@
-<svg width="450" height="600" viewBox="0 0 450 600" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="40.5" y="40.5" width="95.6" height="99" stroke="#FF0000"/>
-<rect x="40.5" y="180.5" width="95.6" height="99" stroke="#FF0000"/>
-<rect x="40.5" y="320.5" width="95.6" height="99" stroke="#FF0000"/>
-<rect x="40.5" y="460.5" width="95.6" height="99" stroke="#FF0000"/>
-<rect x="177.5" y="40.5" width="95.6" height="99" stroke="#FF0000"/>
-<rect x="177.5" y="180.5" width="95.6" height="99" stroke="#FF0000"/>
-<rect x="177.5" y="320.5" width="95.6" height="99" stroke="#FF0000"/>
-<rect x="177.5" y="460.5" width="95.6" height="99" stroke="#FF0000"/>
-<rect x="313.5" y="40.5" width="95.6" height="99" stroke="#FF0000"/>
-<rect x="313.5" y="180.5" width="95.6" height="99" stroke="#FF0000"/>
-<rect x="313.5" y="320.5" width="95.6" height="99" stroke="#FF0000"/>
-<rect x="313.5" y="460.5" width="95.6" height="99" stroke="#FF0000"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="450" height="600" fill="none" viewBox="0 0 450 600"><rect width="95.6" height="99" x="40.5" y="40.5" stroke="red"/><rect width="95.6" height="99" x="40.5" y="180.5" stroke="red"/><rect width="95.6" height="99" x="40.5" y="320.5" stroke="red"/><rect width="95.6" height="99" x="40.5" y="460.5" stroke="red"/><rect width="95.6" height="99" x="177.5" y="40.5" stroke="red"/><rect width="95.6" height="99" x="177.5" y="180.5" stroke="red"/><rect width="95.6" height="99" x="177.5" y="320.5" stroke="red"/><rect width="95.6" height="99" x="177.5" y="460.5" stroke="red"/><rect width="95.6" height="99" x="313.5" y="40.5" stroke="red"/><rect width="95.6" height="99" x="313.5" y="180.5" stroke="red"/><rect width="95.6" height="99" x="313.5" y="320.5" stroke="red"/><rect width="95.6" height="99" x="313.5" y="460.5" stroke="red"/></svg>
