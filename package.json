@@ -6,16 +6,16 @@
     "babel-loader": "^8.1.0",
     "cheerio": "^0.20.0",
     "hsluv": "0.0.1",
-    "http-server": "^0.12.1",
-    "lodash": "^4.6.1",
-    "magicbook": "^0.1.19",
+    "http-server": "^0.13.0",
+    "lodash": "^4.17.21",
+    "magicbook": "^0.1.31",
     "magicbook-codesplit": "^0.1.6",
     "magicbook-webpack": "0.0.4",
     "p5": "^0.5.9",
-    "prismjs": "^1.5.1",
+    "prismjs": "^1.27.0",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
-    "terser-webpack-plugin": "^2.3.5",
+    "terser-webpack-plugin": "^2.3.6",
     "through2": "^2.0.1",
     "tinyliquid": "^0.2.31",
     "webpack": "^4.42.1"
@@ -23,7 +23,9 @@
   "scripts": {
     "dev": "magicbook build --watch",
     "serve": "http-server build/build1 -p 5000",
-    "build": "NODE_ENV=production magicbook build"
+    "build": "NODE_ENV=production magicbook build",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "static": {
     "profile": "runemadsen",
@@ -55,5 +57,9 @@
         ]
       }
     }
+  },
+  "snyk": true,
+  "dependencies": {
+    "@snyk/protect": "latest"
   }
 }
