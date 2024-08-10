@@ -4,7 +4,7 @@
     "@babel/preset-env": "^7.9.0",
     "@babel/preset-react": "^7.9.4",
     "babel-loader": "^8.1.0",
-    "cheerio": "^0.20.0",
+    "cheerio": "^1.0.0",
     "hsluv": "0.0.1",
     "http-server": "^0.12.1",
     "lodash": "^4.6.1",
