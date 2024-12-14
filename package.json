@@ -15,7 +15,7 @@
     "prismjs": "^1.5.1",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
-    "terser-webpack-plugin": "^2.3.5",
+    "terser-webpack-plugin": "^5.3.11",
     "through2": "^2.0.1",
     "tinyliquid": "^0.2.31",
     "webpack": "^4.42.1"
